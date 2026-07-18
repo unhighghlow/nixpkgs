@@ -45,12 +45,12 @@ stdenv.mkDerivation (finalAttrs: {
     # The meson file does not have the subdir set correctly
     (fetchpatch2 {
       url = "https://patch-diff.githubusercontent.com/raw/ThrowTheSwitch/Unity/pull/771.patch";
-      hash = "sha256-r8ldVb7WrzVwTC2CtGul9Jk4Rzt+6ejk+paYAfFlR5M=";
+      hash = "sha256-viNwaqZ+hjIY4qnlLN55/TMzqmoNAgc1Eq5Yv17tr7c=";
     })
     # Fix up the shebangs in the auto directory as not all are correct
     (fetchpatch2 {
       url = "https://patch-diff.githubusercontent.com/raw/ThrowTheSwitch/Unity/pull/790.patch";
-      hash = "sha256-K+OxMe/ZMXPPjZXjGhgc5ULLN7plBwL0hV5gwmgA3FM=";
+      hash = "sha256-GRz7/0cAUWHPMMaclzyvObBpGaA6HcXY2OCKDFitrE4=";
     })
   ];
 
